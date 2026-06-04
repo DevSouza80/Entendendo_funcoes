@@ -12,8 +12,6 @@ function entrar() {
         
         let botaoSair = document.createElement("button");
          
-         
-        area.innerHTML = "Sair da conta";
         botaoSair.onclick = sair;
 
          botaoSair.innerHTML = "Sair da conta";
