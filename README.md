@@ -67,22 +67,6 @@ Usuário clica em "Acessar"
 
 ---
 
-## ⚠️ Bug identificado
-
-No bloco `else` da função `entrar()`, há uma linha duplicada que **sobrescreve a mensagem de boas-vindas** antes de exibi-la:
-
-```javascript
-// ❌ Linha problemática (deve ser removida)
-area.innerHTML = "Sair da conta";
-
-// ✅ Essa linha já cuida do texto do botão corretamente
-botaoSair.innerHTML = "Sair da conta";
-```
-
-**Correção:** remover a linha `area.innerHTML = "Sair da conta"` que aparece antes de `botaoSair.innerHTML`.
-
----
-
 ## 📚 Conceitos praticados
 
 | Conceito | Descrição |
@@ -108,5 +92,4 @@ botaoSair.innerHTML = "Sair da conta";
 ---
 
 ## 👨‍💻 Autor
-
-Feito com 💙 para fins de aprendizado em JavaScript.
+Dev Souza
